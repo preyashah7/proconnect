@@ -48,8 +48,8 @@ const UserProfilePage = () => {
     const fetchProfileData = async () => {
       try {
         const [userRes, postsRes] = await Promise.all([
-          axios.get(`http://localhost:5000/api/users/${userId}`),
-          axios.get("http://localhost:5000/api/posts"),
+          axios.get(`https://proconnect-6254.onrender.com/api/users/${userId}`),
+          axios.get("https://proconnect-6254.onrender.com/api/posts"),
         ]);
 
         setUser(userRes.data);
@@ -102,7 +102,7 @@ const UserProfilePage = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.post(
-        `http://localhost:5000/api/posts/${postId}/like`,
+        `https://proconnect-6254.onrender.com/api/posts/${postId}/like`,
         {},
         {
           headers: {

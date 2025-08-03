@@ -35,7 +35,7 @@ const LoginPage = () => {
     setError('');
 
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', form);
+      const res = await axios.post('https://proconnect-6254.onrender.com/api/auth/login', form);
       const { token, user } = res.data;
 
       localStorage.setItem('token', token);

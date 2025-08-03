@@ -36,7 +36,7 @@ const RegisterPage = () => {
     setSuccess('');
 
     try {
-      const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/register`, form);
+      const res = await axios.post(`https://proconnect-6254.onrender.com/api/auth/register`, form);
       setSuccess('Account created successfully! Redirecting to login...');
       setTimeout(() => {
         navigate('/');

@@ -47,7 +47,7 @@ const DashboardPage = () => {
   const fetchUser = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('http://localhost:5000/api/users/me', {
+      const res = await axios.get('https://proconnect-6254.onrender.com/api/users/me', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setUser(res.data);
@@ -60,7 +60,7 @@ const DashboardPage = () => {
   const fetchPosts = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('http://localhost:5000/api/posts/mine', {
+      const res = await axios.get('https://proconnect-6254.onrender.com/api/posts/mine', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setPosts(res.data);
@@ -77,7 +77,7 @@ const DashboardPage = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.post(
-        `http://localhost:5000/api/posts/${postId}/like`,
+        `https://proconnect-6254.onrender.com/api/posts/${postId}/like`,
         {},
         {
           headers: {
@@ -109,7 +109,7 @@ const DashboardPage = () => {
     try {
       const token = localStorage.getItem('token');
       const res = await axios.put(
-        'http://localhost:5000/api/users/me',
+        'https://proconnect-6254.onrender.com/api/users/me',
         editUser,
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -128,7 +128,7 @@ const DashboardPage = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.post(
-        `http://localhost:5000/api/posts/${postId}/comment`,
+        `https://proconnect-6254.onrender.com/api/${postId}/comment`,
         { text: commentText },
         {
           headers: {
@@ -154,7 +154,7 @@ const DashboardPage = () => {
     try {
       const token = localStorage.getItem('token');
       await axios.post(
-        'http://localhost:5000/api/posts',
+        'https://proconnect-6254.onrender.com/api/posts',
         { content },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -170,7 +170,7 @@ const DashboardPage = () => {
   const handleDelete = async (postId) => {
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`http://localhost:5000/api/posts/${postId}`, {
+      await axios.delete(`https://proconnect-6254.onrender.com/api/posts/${postId}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       fetchPosts();
@@ -185,7 +185,7 @@ const DashboardPage = () => {
     try {
       const token = localStorage.getItem('token');
       await axios.put(
-        `http://localhost:5000/api/posts/${postId}`,
+        `https://proconnect-6254.onrender.com/api/posts/${postId}`,
         { content: editingContent },
         { headers: { Authorization: `Bearer ${token}` } }
       );

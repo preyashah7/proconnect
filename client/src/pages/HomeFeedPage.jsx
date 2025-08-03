@@ -45,7 +45,7 @@ const HomeFeedPage = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/posts");
+        const res = await axios.get("https://proconnect-6254.onrender.com/api/posts");
         const filteredPosts = res.data.filter(
           (post) => post.user._id !== currentUserId
         );
@@ -90,7 +90,7 @@ const HomeFeedPage = () => {
     try {
       const token = localStorage.getItem('token');
       const res = await axios.post(
-        `http://localhost:5000/api/posts/${postId}/like`,
+        `https://proconnect-6254.onrender.com/api/posts/${postId}/like`,
         {},
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -120,7 +120,7 @@ const HomeFeedPage = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.post(
-        `http://localhost:5000/api/posts/${postId}/comment`,
+        `https://proconnect-6254.onrender.com/api/${postId}/comment`,
         { text: commentText },
         {
           headers: {
