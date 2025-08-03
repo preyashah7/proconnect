@@ -1,7 +1,7 @@
 # ProConnect – A Mini LinkedIn Clone
 
 ## 🚀 Live Demo
-[https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)
+[https://your-frontend-url.vercel.app](https://proconnect-wheat.vercel.app/)
 
 ## 📂 GitHub Repository
 [https://github.com/preyashah7/proconnect](https://github.com/preyashah7/proconnect)
@@ -79,5 +79,6 @@ Password: 123456
 * Like/Unlike posts
 * Responsive design
 * Modern LinkedIn-style UI
+
 
 
