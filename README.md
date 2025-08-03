@@ -1,65 +1,51 @@
-# 🌐 ProConnect
+# ProConnect – A Mini LinkedIn Clone
 
 ## 🚀 Live Demo
-
-👉 [Visit ProConnect Live](https://proconnect-wheat.vercel.app/)
-
----
+🔗 [https://proconnect-wheat.vercel.app/](https://proconnect-wheat.vercel.app/)
 
 ## 📂 GitHub Repository
-
-📎 [GitHub Source Code](https://github.com/preyashah7/proconnect)
+📁 [https://github.com/preyashah7/proconnect](https://github.com/preyashah7/proconnect)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Stack Used
 
-**Frontend**:  
-⚛️ React.js with Material UI  
-
-**Backend**:  
-🚀 Node.js with Express.js  
-
-**Database**:  
-🗂 MongoDB using Mongoose ODM  
-
-**Deployment**:  
-🌐 Vercel (Frontend)  
-🛠 Render (Backend)
+- **Frontend**: React (with Material UI)
+- **Backend**: Node.js (Express.js)
+- **Database**: MongoDB (with Mongoose)
+- **Deployment**: Vercel (Frontend), Render (Backend)
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 📦 Backend Setup (Optional for local development)
+### 🔧 Backend (Render Hosted or Run Locally)
 
-1. **Clone the repository**  
-
+1. Clone the repository:
    ```bash
-   git clone https://github.com/preyashah7/proconnect.git 
-   ```
+   git clone https://github.com/preyashah7/proconnect.git
+   ````
 
-2. **Navigate to the backend folder**
+2. Navigate to backend folder:
 
    ```bash
    cd server
    ```
 
-3. **Install dependencies**
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. **Add environment variables**
-   Create a `.env` file in the `server/` folder with the following:
+4. Create a `.env` file:
 
    ```
    MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_secret_key
+   JWT_SECRET=your_jwt_secret
    ```
 
-5. **Run backend server locally**
+5. Run the backend:
 
    ```bash
    node server.js
@@ -67,28 +53,27 @@
 
 ---
 
-### 💻 Frontend Setup
+### 🎨 Frontend
 
-1. **Navigate to client folder**
+1. Navigate to the frontend folder:
 
    ```bash
    cd client
    ```
 
-2. **Install frontend dependencies**
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-3. **Update backend API URL**
-   In `src/api/posts.js` and other API files, set:
+3. Update `src/api/posts.js` or other API configs with:
 
    ```js
-   baseURL: "https://proconnect-backend.onrender.com/api"
+   baseURL: "https://your-backend-name.onrender.com/api"
    ```
 
-4. **Run the frontend**
+4. Run the frontend:
 
    ```bash
    npm start
@@ -98,63 +83,57 @@
 
 ## 👤 Demo User Login
 
-Use the following credentials to explore the app:
+Use the following credentials to try out the platform:
 
 ```
 Email: foram@gmail.com  
 Password: 123456
 ```
+
 ---
 
 ## 🧭 How to Use
 
 When you visit the live site, you’ll be taken to the **Login Page**.
 
-- 🔐 **New to the platform?** Click on **“Register”** at the bottom of the login form to create a new account.
-- ✅ Once logged in, you'll land on the **Home Feed**, where you can:
-  - View posts from other users
-  - Like or unlike posts
-  - Click on any user’s **name or avatar** to view their **public profile**
+* 🔐 **New to the platform?** Click on **“Register”** at the bottom to create an account.
+* ✅ Once logged in, you'll land on the **Home Feed**, where you can:
 
-### 🧑‍💼 User Profile Page
-- Shows the user's **bio** and **all posts created by them**
+  * View posts from other users
+  * Like/unlike posts
+  * View **timestamps** like `2m`, `1h`, `3d` ago
+  * Click on any user’s **name or avatar** to visit their **profile page**
 
-### 📌 Dashboard (Top Navbar)
-From the **Dashboard**, you can:
-- 📝 **Create a new post**
-- ✏️ **Edit your profile** (name, bio, email)
-- 📄 View and manage **your own posts**
+### 🧑‍💼 Profile Page
 
-Everything is neatly organized in a responsive, LinkedIn-style UI.
+* Displays the selected user's **bio** and **all their posts**
+
+### 🛠 Dashboard (Navbar > Dashboard)
+
+Here you can:
+
+* ✏️ **Update your profile** (name, email, bio)
+* 📝 **Create new posts**
+* 📂 View all **your own posts**
 
 ---
 
 ## ✨ Features
 
-✅ User Registration & Login
-
-✅ User Profiles with Bio
-
-✅ Public Post Feed (Text-only posts)
-
-✅ Like/Unlike Posts
-
-✅ Responsive Design
-
-✅ LinkedIn-inspired Clean UI
+* ✅ User Authentication (Register/Login with JWT)
+* ✅ Public Post Feed (text-only)
+* ✅ Like/Unlike posts
+* ✅ Profile pages with all user posts
+* ✅ Dashboard to manage your posts & profile
+* ✅ Timestamps (e.g., 5m ago, 3h ago)
+* ✅ Responsive, LinkedIn-style UI
 
 ---
 
-## 📌 Notes
+## 📩 Submission Details
 
-* The app uses token-based authentication with JWT.
-* Comments and follow system can be easily integrated in future versions.
+* 🔗 **GitHub**: [https://github.com/preyashah7/proconnect](https://github.com/preyashah7/proconnect)
+* 🌐 **Live**: [https://proconnect-wheat.vercel.app/](https://proconnect-wheat.vercel.app/)
 
 ---
-
-> 💼 Built with care by [Preya Shah](https://github.com/preyashah7)
-
-
-
-
-
+💼 Built with care by Preya Shah
