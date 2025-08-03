@@ -1,8 +1,4 @@
-# 🌐 ProConnect – A Mini LinkedIn-Style Community Platform
-
-A modern, responsive, and feature-rich LinkedIn-style platform where users can register, create posts, like content, and explore professional profiles.
-
----
+# 🌐 ProConnect
 
 ## 🚀 Live Demo
 
@@ -127,4 +123,5 @@ Password: 123456
 ---
 
 > 💼 Built with care by [Preya Shah](https://github.com/preyashah7)
+
 
