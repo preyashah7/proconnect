@@ -104,6 +104,28 @@ Use the following credentials to explore the app:
 Email: foram@gmail.com  
 Password: 123456
 ```
+---
+
+## 🧭 How to Use
+
+When you visit the live site, you’ll be taken to the **Login Page**.
+
+- 🔐 **New to the platform?** Click on **“Register”** at the bottom of the login form to create a new account.
+- ✅ Once logged in, you'll land on the **Home Feed**, where you can:
+  - View posts from other users
+  - Like or unlike posts
+  - Click on any user’s **name or avatar** to view their **public profile**
+
+### 🧑‍💼 User Profile Page
+- Shows the user's **bio** and **all posts created by them**
+
+### 📌 Dashboard (Top Navbar)
+From the **Dashboard**, you can:
+- 📝 **Create a new post**
+- ✏️ **Edit your profile** (name, bio, email)
+- 📄 View and manage **your own posts**
+
+Everything is neatly organized in a responsive, LinkedIn-style UI.
 
 ---
 
@@ -131,6 +153,7 @@ Password: 123456
 ---
 
 > 💼 Built with care by [Preya Shah](https://github.com/preyashah7)
+
 
 
 
