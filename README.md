@@ -16,9 +16,7 @@
 
 ### Backend (Render Hosted or Local)
 1. Clone the repository:
-   ```bash
    git clone https://github.com/preyashah7/proconnect.git
-````
 
 2. Navigate to the backend folder:
 
@@ -79,6 +77,7 @@ Password: 123456
 * Like/Unlike posts
 * Responsive design
 * Modern LinkedIn-style UI
+
 
 
 
