@@ -34,7 +34,10 @@
 ### 📦 Backend Setup (Optional for local development)
 
 1. **Clone the repository**  
-   git clone https://github.com/preyashah7/proconnect.git
+
+   ```bash
+   git clone https://github.com/preyashah7/proconnect.git 
+   ```
 
 2. **Navigate to the backend folder**
 
@@ -128,6 +131,7 @@ Password: 123456
 ---
 
 > 💼 Built with care by [Preya Shah](https://github.com/preyashah7)
+
 
 
 
