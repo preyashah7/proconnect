@@ -107,10 +107,15 @@ Password: 123456
 ## ✨ Features
 
 ✅ User Registration & Login
+
 ✅ User Profiles with Bio
+
 ✅ Public Post Feed (Text-only posts)
+
 ✅ Like/Unlike Posts
+
 ✅ Responsive Design
+
 ✅ LinkedIn-inspired Clean UI
 
 ---
@@ -123,5 +128,6 @@ Password: 123456
 ---
 
 > 💼 Built with care by [Preya Shah](https://github.com/preyashah7)
+
 
 
