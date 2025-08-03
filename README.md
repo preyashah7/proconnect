@@ -1,7 +1,3 @@
-
-### ✅ Final `README.md` Structure (recommended)
-
-````md
 # ProConnect – A Mini LinkedIn Clone
 
 ## 🚀 Live Demo
@@ -83,4 +79,5 @@ Password: 123456
 * Like/Unlike posts
 * Responsive design
 * Modern LinkedIn-style UI
+
 
